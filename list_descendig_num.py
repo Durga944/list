@@ -1,0 +1,12 @@
+num=[60,10,30,20,50,40]
+i=0
+while(i<len(num)):
+    j=i+1
+    while(j<len(num)):
+        if(num[i]<num[j]):
+            var=num[i]
+            num[i]=num[j]
+            num[j]=var
+        j=j+1
+    i=i+1
+print(num)

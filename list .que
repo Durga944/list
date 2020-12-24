@@ -1,0 +1,7 @@
+list=[32,23,46,19,90,12,23,95,100,1]
+i=1
+a=len(list)
+while(i<a/2):
+    list[i]=list[a-i]
+    i=i+1
+print(list)

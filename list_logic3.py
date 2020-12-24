@@ -1,0 +1,11 @@
+list=["durga","sonu","durga","sonu","vaibhav","sonu"]
+i=0
+count=0
+counter=0
+while(i<len(list)):
+    if(list[i]=="durga"):
+        count=count+1
+    elif(list[i]=="sonu"):
+        counter=counter+1
+    i=i+1
+print(count,counter)

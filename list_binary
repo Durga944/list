@@ -1,0 +1,9 @@
+binary_number = [1, 0, 0, 1, 1, 0, 1, 1] 
+a=len(binary_number)-1
+count=0
+calculator=1
+while(a>=0):
+    count=count+(binary_number[a])*calculator
+    calculator=calculator*2
+    a=a-1
+print(count)
